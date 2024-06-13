@@ -119,8 +119,8 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
-    - name: Setup Debug Session-SSH
-      uses: csexton/debugger-action@master
+    #- name: Setup Debug Session-SSH
+      #uses: csexton/debugger-action@master
       
     - name: Download package
       id: package
